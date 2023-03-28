@@ -10,6 +10,12 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Lato, sans-serif;
+}
 header {
     background-color: lightcoral;
 }
@@ -25,8 +31,3 @@ footer {
     background-color: orange;
 }
 
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
